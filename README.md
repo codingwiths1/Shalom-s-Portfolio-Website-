@@ -1,16 +1,42 @@
-# portfolio
+# 🧑‍💻 Shalom's Portfolio Website – Built with Flutter Web
 
-A new Flutter project.
+A fully responsive and modern developer portfolio built using Flutter Web. This project is a showcase of my skills, projects, and passion for creating smooth, interactive experiences using Flutter.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📖 About the Project
 
-A few resources to get you started if this is your first Flutter project:
+This is more than just a portfolio — it’s a real-world Flutter Web app that adapts across devices, uses advanced layouts, and demonstrates clean architecture and performance.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+I built this project to not only present myself professionally but also to prove what Flutter can do beyond mobile apps — including responsiveness, animations, routing, and clean code practices.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🧰 Technologies & Packages Used
+
+- **Flutter Web**
+- **Dart**
+- **GetX** – state management & routing
+- **ResponsiveBuilder** / MediaQuery – for adaptive layouts
+- **Flutter Dropzone** *(optional)* – for advanced file input
+- **Custom UI Components** – Grid layouts, card systems, etc.
+- **Google Fonts** – for beautiful typography
+- **URL Launcher** – to open links & contact info
+- **GoRouter**
+
+---
+
+## 🎨 Key Features
+
+- 💻 Fully responsive layout (mobile, tablet, desktop)
+- 🚀 Smooth routing and scroll animations
+- 🔗 External links to GitHub, projects, contact
+- 🖼️ Projects section with images and descriptions
+- 📬 Contact form with call-to-action
+- 🌙 Clean and minimal UI using Flutter's UI toolkit
+
+---
+
+
+
+## 🛠️ Getting Started
