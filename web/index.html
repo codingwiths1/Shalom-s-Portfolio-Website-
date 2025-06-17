@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html, body {
+          background-color: #141218;
+          margin: 0;
+          height: 100%;
+          overflow: hidden;
+        }
+
+        #loading {
+          position: fixed;
+          top: 0;
+          left: 0;
+          height: 100vh;
+          width: 100vw;
+          background-color: #141218;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 9999;
+        }
+
+        flutter-view {
+          background-color: transparent !important;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shalom | Bespoke Web & Mobile Developer for Luxury Brands</title>
+    <meta name="description" content="Shalom is a luxury-focused web and mobile developer crafting elegant digital experiences for high-end brands in fashion, jewelry, real estate, finance, and lifestyle.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://shalomluxstudio.web.app">
+    <link rel="icon" href="favicon.ico" type="image/ico">
+    <meta name="keywords" content="web developer, mobile app developer, luxury website, bespoke app, premium website design, high-end developer, elegant UI, custom websites, Flutter developer, rich user experience, UK developer, elite branding, luxury tech" />
+    <meta property="og:title" content="Shalom | Bespoke Web & Mobile Developer for Luxury Brands">
+    <meta property="og:description" content="Tailored web and mobile experiences crafted for prestigious global brands.">
+    <meta property="og:image" content="https://res.cloudinary.com/dsqc1pitc/image/upload/v1748632507/ly3rftmxxalda51qmopg.jpg">
+    <meta property="og:url" content="https://shalomluxstudio.web.app">
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shalom | Bespoke Web & Mobile Developer for Luxury Brands">
+    <meta name="twitter:description" content="Tailored web and mobile experiences crafted for prestigious global brands.">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dsqc1pitc/image/upload/v1748632507/ly3rftmxxalda51qmopg.jpg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Shalom",
+        "description": "Luxury Web & Mobile Developer",
+        "url": "https://shalomluxstudio.web.app",
+        "image": "https://res.cloudinary.com/dsqc1pitc/image/upload/v1748632507/ly3rftmxxalda51qmopg.jpg"
+      }
+    </script>
+
+</head>
+<body>
+ <div id="loading">
+  <img src="https://res.cloudinary.com/dsqc1pitc/image/upload/v1749167467/edzsq1z6mgeb2x6gupv8.gif" alt="Loading" style="height: 700px width: 700px"/>
+ </div>
+
+<script src="flutter_bootstrap.js" async></script>
+<script>
+    window.addEventListener('load', function () {
+      const loadingScreen = document.getElementById('loading');
+      if (loadingScreen) loadingScreen.remove();
+    });
+</script>
+</body>
+</html>
