@@ -21,7 +21,7 @@ I built this project to not only present myself professionally but also to prove
 - **Custom UI Components** – Grid layouts, card systems, etc.
 - **Google Fonts** – for beautiful typography
 - **URL Launcher** – to open links & contact info
-- **GoRouter**
+- **GoRouter** - for Deep linking	
 
 ---
 
